@@ -1,0 +1,5 @@
+services: OWASP:
+image: bkimminich/juice-shop container_name: owasp-juice-shop
+ports:
+"3000:3000"
+restart:  always
